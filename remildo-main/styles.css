@@ -1,0 +1,9 @@
+:root{
+    --cinza-pricipal:#d9d9d9;
+    --roxo-secundario:#bfcff9;
+    --botao-rosa:#f6ebeb;
+    --cor-de-fundo:#d9d9d9;
+    
+
+body{
+    background-color: var(
