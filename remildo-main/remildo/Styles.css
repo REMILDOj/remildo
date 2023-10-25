@@ -1,0 +1,55 @@
+:root{
+    --branco-principal: #7A51EE;
+    --cinza-secundario: #000;
+    --botao-azul: #ffffff;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: 'Inter';
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 24px;
+    font-weight: 400;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.ABRIR{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal);
+    display: block;
+}   
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.ABRIR2{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid var(--cor-de-fundo);
+}
+body {
+    background-color: #7A51EE;
+    color: white;
+}
+
+.cabecario360{
+
+    width: 20%;
+}
+
+.principal{
+    background-image: ult("Img/Formula-amico1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: baseline;
+    text-align:left;
+}
